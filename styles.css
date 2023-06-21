@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Libre Baskerville', sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/04/42/conifers-1867371_1280.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+header {
+    height: 100px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+header h1, p {
+    text-align: center;
+    padding-bottom: 8px;
+    color: #000;
+}
+
+section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+}
+
+#content {
+    text-align: center;
+}
+
+.card summary {
+    text-align: left;
+}
+
+.card {
+    padding: 8px;
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #777;
+    border-radius: 2%;
+    max-height: 100%;
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card img {
+    width: 100%;
+    max-height: 300px;
+    display: block;
+    border-radius: 2%;
+    object-fit: cover;
+}
+
+.card details {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+}
+
+.card details summary {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.card details p {
+    text-align: justify;
+    padding: 10px;
+}
