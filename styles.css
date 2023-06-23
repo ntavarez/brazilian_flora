@@ -106,13 +106,13 @@ section {
     }
 }
 
-@media (max-width: 409px) and (min-width: 211px) {
+@media (max-width: 409px) and (min-width: 340px) {
     header {
-        padding-bottom: 65px;
+        padding-bottom: 3cqw;
     }
 
     header h1 {
-        font-size: 28px;
+        font-size: 30px;
     }
 
     .card img {
@@ -120,7 +120,21 @@ section {
     }
 }
 
-@media (max-width: 210px) and (min-width: 151px) {
+@media (max-width: 339px) and (min-width: 222px) {
+    header {
+        padding-bottom: 25px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    .card img {
+        height: 180px;
+    }
+}
+
+@media (max-width: 221px) and (min-width: 151px) {
     header {
         height: 130px;
         padding-bottom: 20px;
@@ -163,7 +177,7 @@ section {
 
 @media (max-width: 124px) and (min-width: 100px){
     header {
-        padding-bottom: 25px;
+        padding-bottom: 24px;
     }
 
     header h1 {
