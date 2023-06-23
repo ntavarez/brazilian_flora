@@ -69,10 +69,9 @@ function loadPlants() {
     for (let plant in plants) {
         content.innerHTML +=
             '<div class="card">' +
-            '<div class="card-img">' +
             '<img src="' +
             plants[plant].image +
-            '"/>' + '</div>' +
+            '"/>' +
             '<details>' +
             '<summary>' +
             plants[plant].name +
