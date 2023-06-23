@@ -106,20 +106,79 @@ section {
     }
 }
 
-@media (max-width: 210px) and (min-width: 169px) {
-    header{
+@media (max-width: 409px) and (min-width: 211px) {
+    header {
+        padding-bottom: 65px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .card img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 210px) and (min-width: 151px) {
+    header {
         height: 130px;
+        padding-bottom: 20px;
     }
     
-    header h1{
+    header h1 {
         font-size: 25px;
     }
 
-    header p{
+    header p {
         font-size: 12px;
     }
 
-    .card img{
+    .card img {
         height: 90px;
+    }
+}
+
+@media (max-width: 150px) and (min-width: 125px){
+    header {
+        padding-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    .card details summary {
+        font-size: 13px;
+    }
+
+    .card img {
+        height: 80px;
+    }
+}
+
+@media (max-width: 124px) and (min-width: 100px){
+    header {
+        padding-bottom: 25px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    header p {
+        font-size: 10px;
+    }
+
+    .card details summary {
+        font-size: 10px;
+    }
+
+    .card img {
+        height: 75px;
     }
 }
